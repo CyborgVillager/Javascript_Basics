@@ -18,3 +18,4 @@
 v0 Setup : Setting up JS Git Respo
 v1 Emmett Installation / JS  : Installed Emmett and test alert feature @ index.html for JS
 v2 External File Test : Just brief overview on connecting external js file
+v3 JS Insertion : quick overview on js insertion

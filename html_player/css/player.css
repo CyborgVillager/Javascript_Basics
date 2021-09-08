@@ -1,0 +1,76 @@
+/*
+ darkgrey: rgb(30,30,30);
+ lightgrey: rgb(70,70,70);
+ lightblue: rgb(50,170,220);
+
+ */
+#video_player {
+  background-color: rgb(30,30,30);
+  display: inline-block;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+}
+img,  #progress_bar_container,#soundbar_container {
+ cursor: pointer;
+}
+img:hover{
+  background-color: rgb(50,170,220);
+}
+
+/* Container */
+#video_container {
+  width: 632px;
+  height: 524px;
+}
+  video {
+    height: 100%;
+    width: 100%;
+  }
+#progress_bar_container{
+  padding-bottom: 2px;
+  margin-top: 2px;
+  background-color: rgb(70,70,70);
+}
+   #progress_bar{
+      height: 8px;
+      width: 50%;
+      background-color: rgb(50,170,220);
+    }
+
+#video_buttons_container{
+  padding-top: 4px;
+  height: 50px;
+}
+  #video_buttons_container > * {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin: 0 10px;
+
+  }
+  #time_field{
+    color: rgb(50,170,220);
+    line-height: 50px;
+    cursor: default;
+  }
+  #sound_button{
+    margin-right: 0;
+  }
+  #soundbar_container{
+    margin-left: 0;
+    width: 100px;
+    height:5px;
+    background-color: rgb(70,70,70);
+  }
+
+  #soundbar{
+      height: 100%;
+      width: 50%;
+      background-color: rgb(50,170,120);
+    }
+  #fullscreen_button{
+    float: right;
+  }

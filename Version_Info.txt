@@ -20,3 +20,9 @@ v1 Emmett Installation / JS  : Installed Emmett and test alert feature @ index.h
 v2 External File Test : Just brief overview on connecting external js file
 v3 JS Insertion : quick overview on js insertion
 v4 Minor JS : minor JS additions with new folder - basic
+--v5 Private Respo - VillagerPvP: will make that respo public due to it being a member/blog site for VillagerPvP. Will temp halt
+				updates on this respo, eta on site launch 1-4 days. So far its just react, will test out some things
+				to make it more compatible with mobile versions, most likely will have to create apps using react native/
+				convert current to it.
+
+				
